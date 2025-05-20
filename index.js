@@ -10,8 +10,7 @@ const port = process.env.PORT || 8000
 // middlewares
 app.use(cors({
   origin: [,
-    'job-marketplace-f9c8d.web.app',
-    'job-marketplace-f9c8d.firebaseapp.com'
+    'online-job-place-client.vercel.app',
   ],
   credentials: true,
   optionsSuccessStatus: 200
