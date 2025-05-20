@@ -10,7 +10,7 @@ const port = process.env.PORT || 8000
 // middlewares
 app.use(cors({
   origin: [,
-    'online-job-place-client.vercel.app',
+    'https://online-job-place-client.vercel.app','http://localhost:5173'
   ],
   credentials: true,
   optionsSuccessStatus: 200
